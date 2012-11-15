@@ -25,7 +25,6 @@
 	<p><?php echo $nome1. " - ". $nome2. " - ". $nome3. " - " ?></p>
 	<p><?php echo $sexo1. " - ". $sexo2. " - ". $sexo3. " - " ?></p>
 	<?php
-	
 	if($sexo1 == "feminino" && $sexo2 == "feminino" && $sexo3 == "feminino"){
 		echo "predominante feminino";
 	}

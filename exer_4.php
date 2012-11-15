@@ -14,11 +14,23 @@
 <div id = "conteudo"> 
 	<?php
 	for ($i=0; $i < 25; $i++) :
-		echo "Lactobacilos vivos também possuem sentimentos"; 
+		echo "Lactobacilos vivos também possuem sentimentos<br />"; 
 		endfor;
-			
+		$valor = 5;
 		
-	
+		for ($i=0; $i <= $valor; $i++) :
+			echo"$i";
+			endfor;	
+			
+			$valor1 = 5;
+			$valor2 = 10;
+			
+			for ($i= $valor1+1; $i < valor2; $i++) :
+				 echo"$i";
+			endfor;
+		
+				
+	?>
 	
 		
 	</div>
