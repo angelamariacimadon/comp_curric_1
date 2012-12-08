@@ -58,6 +58,10 @@
                         <?php echo $this->Html->link(__('Postagens'),array('controller' => 'Posts','action' => 'index')) ?>
                       </li>
 
+                      <li class="<?php echo $this->action == 'View' ? 'active' : ''; ?>">
+                        <?php echo $this->Html->link(__('Pcs'),array('controller' => 'Pcs','action' => 'index')) ?>
+                      </li>
+
 
                     </ul>
 
