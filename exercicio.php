@@ -531,10 +531,6 @@ b) retorne uma string que deverá estar dentro da tag <p>. Ex:
 						echo "R$ " . number_format($valor, 2, ',', '.');
 				
 					
-					
-						
-	
-		
 </body>
 </html>
 
