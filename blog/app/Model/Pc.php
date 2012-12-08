@@ -1,4 +1,4 @@
 <?php
-class Pcs extends AppModel {
+class Pc extends AppModel {
    // public $name = 'Post';
 }
