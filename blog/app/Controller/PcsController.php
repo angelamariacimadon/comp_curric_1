@@ -14,7 +14,7 @@ public function view($id = null) {
     }
 
  public function add() {
-        if ($this->request->is('pc')) {
+        if ($this->request->is('post')) {
             if ($this->Pc->save($this->request->data)) {
                 $this->Session->setFlash('marca do seu pc foi salva.');
                 $this->redirect(array('action' => 'index'));
@@ -33,7 +33,7 @@ public function view($id = null) {
     }
 }
 public function delete($id) {
-    if (!$this->request->is('pc')) {
+    if (!$this->request->is('post')) {
         throw new MethodNotAllowedException();
     }
     if ($this->Pc->delete($id)) {
